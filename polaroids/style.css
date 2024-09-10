@@ -9,15 +9,51 @@
     margin: 0;
     text-align: center;
     padding: 10px;
-    color: lightgrey;
+    color: rgb(156, 146, 146);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 header{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    text-align: center;
     color: aliceblue;
     padding: 30px;
     background-color: dimgrey;
+}
+
+footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+
+.products{ 
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* trasformando em container */
+    display: flex;
+    /* deixa o texto embaixo da imagem */
+    flex-direction: column;
+}
+
+.products img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+main#album{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
 }
